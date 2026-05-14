@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.message-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    position: relative;
+    background: white;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-size: 1rem;
+    resize: none; /* Không cho người dùng kéo dãn ô nhập liệu */
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+counter{
+    position:absolute;
+    bottom:15px;
+    right:20px;
+    font-size:0.9rem;
+    color:#333;
+    pointer-events:none;
+}
+textarea.error{
+    border-color:#ff4d4d;
+    color:#ff4d4d;
+}
+.counter.error{
+    color:#ff4d4d;
+}

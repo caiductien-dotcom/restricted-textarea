@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="message-container">
+        <h1>Write your Message</h1>
+        
+        <div class="input-group">
+            <textarea id="messageInput" 
+                      placeholder="Start typing..." 
+                      maxlength="250"></textarea>
+            
+            <div id="charCounter" class="counter">
+                <span id="current">0</span> / 250
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
